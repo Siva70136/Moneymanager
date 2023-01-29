@@ -1,0 +1,87 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+
+  height: 100vh;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.user-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 20px;
+  width: 800px;
+}
+.title {
+  color: blue;
+}
+.transactions-container {
+  margin-top: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-details {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.box {
+  outline: none;
+  border: 1px solid gray;
+  padding: 8px;
+  border-radius: 5px;
+}
+.type-container {
+  padding: 5px;
+  width: 150px;
+  background-color: white;
+}
+
+.transaction-items {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  height: 330px;
+  width: 380px;
+}
+.item-Box {
+  border-collapse: collapse;
+  text-align: center;
+}
+.record {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+
+  width: auto;
+}
+.items {
+  border: 1px solid lightgray;
+  margin-top: 0px;
+}
+.my-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button {
+  margin: 8px;
+  border-width: 0px;
+  border-radius: 7px;
+  padding: 8px;
+  background-color: lightblue;
+  width: 100px;
+}

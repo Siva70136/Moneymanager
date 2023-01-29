@@ -1,0 +1,25 @@
+/* Write your CSS here */
+/* Write your CSS here */
+
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.delete-icon {
+  width: 22px;
+  height: 22px;
+}
+.income {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
